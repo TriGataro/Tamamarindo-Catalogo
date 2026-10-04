@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#f7f5ef">
+		<meta name="description" content="Encuentra perfumes, maquillaje, skincare y cuidado personal en un solo lugar.">
+		<title>Tamtamarindo | Belleza para todos los días</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="announcement-bar">Un pequeño ritual puede cambiar todo <span aria-hidden="true">·</span> Envíos a todo Chile</div>
+
+		<header class="site-header sticky-top">
+			<nav class="navbar navbar-expand-lg" aria-label="Navegación principal">
+				<div class="container site-container">
+					<a class="navbar-brand" href="#inicio" aria-label="Tamtamarindo, inicio">
+						<span class="brand-mark"><i class="bi bi-flower1" aria-hidden="true"></i></span>
+						<span><strong>Tamtamarindo</strong></span>
+					</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Abrir menú">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="mainNavigation">
+						<ul class="navbar-nav mx-auto">
+							<li class="nav-item"><a class="nav-link" href="#catalogo" data-category-link="Perfumería">Perfumería</a></li>
+							<li class="nav-item"><a class="nav-link" href="#catalogo" data-category-link="Maquillaje">Maquillaje</a></li>
+							<li class="nav-item"><a class="nav-link" href="#catalogo" data-category-link="Skincare">Skincare</a></li>
+							<li class="nav-item"><a class="nav-link" href="#catalogo" data-category-link="Cuidado Personal">Cuidado personal</a></li>
+						</ul>
+						<div class="header-actions">
+							<button class="icon-button search-toggle" type="button" aria-label="Ir a buscar productos" title="Buscar productos"><i class="bi bi-search" aria-hidden="true"></i></button>
+							<button class="icon-button cart-trigger" type="button" data-bs-toggle="offcanvas" data-bs-target="#cartPanel" aria-controls="cartPanel" aria-label="Abrir carrito">
+								<i class="bi bi-bag" aria-hidden="true"></i><span class="cart-count" aria-live="polite">0</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main id="inicio">
+			<section class="hero-section">
+				<div class="container site-container">
+					<div class="hero-panel">
+						<div class="hero-copy">
+							<span class="eyebrow"><span class="eyebrow-line"></span> Belleza con intención</span>
+							<h1>Tu momento.<br><em>Tu manera</em> de brillar.</h1>
+							<p>Encuentra ese aroma, color y cuidado que se siente como tú.</p>
+							<a class="button-primary" href="#catalogo">Descubrir productos <i class="bi bi-arrow-down-right" aria-hidden="true"></i></a>
+							<div class="hero-note"><i class="bi bi-stars" aria-hidden="true"></i> Favoritos para tus rituales de cada día</div>
+						</div>
+						<div class="hero-art" aria-label="Perfume Kaiak Clásico">
+							<span class="hero-stamp">Un toque<br>de frescura</span>
+							<img src="https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?auto=format&fit=crop&w=900&q=80" alt="Frasco de perfume de referencia">
+							<span class="hero-art-caption">Kaiak Clásico <span>100 ml</span></span>
+						</div>
+						<div class="hero-orbit" aria-hidden="true"></div>
+					</div>
+				</div>
+			</section>
+
+			<section class="category-section" aria-label="Comprar por categoría">
+				<div class="container site-container">
+					<div class="section-heading category-heading">
+						<div><span class="eyebrow">Explora a tu ritmo</span><h2>¿Qué estás buscando?</h2></div>
+						<span class="category-hint">Cuatro formas de encontrar tu favorito <i class="bi bi-arrow-down-right" aria-hidden="true"></i></span>
+					</div>
+					<div class="category-grid">
+						<button class="category-tile tile-perfume" type="button" data-category="Perfumería">
+							<span class="tile-index">01</span><span class="tile-icon"><i class="bi bi-sparkles" aria-hidden="true"></i></span><span class="tile-name">Perfumería</span><span class="tile-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span>
+						</button>
+						<button class="category-tile tile-makeup" type="button" data-category="Maquillaje">
+							<span class="tile-index">02</span><span class="tile-icon"><i class="bi bi-palette2" aria-hidden="true"></i></span><span class="tile-name">Maquillaje</span><span class="tile-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span>
+						</button>
+						<button class="category-tile tile-skin" type="button" data-category="Skincare">
+							<span class="tile-index">03</span><span class="tile-icon"><i class="bi bi-droplet-half" aria-hidden="true"></i></span><span class="tile-name">Skincare</span><span class="tile-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span>
+						</button>
+						<button class="category-tile tile-care" type="button" data-category="Cuidado Personal">
+							<span class="tile-index">04</span><span class="tile-icon"><i class="bi bi-flower2" aria-hidden="true"></i></span><span class="tile-name">Cuidado personal</span><span class="tile-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span>
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<section class="catalog-section" id="catalogo">
+				<div class="container site-container">
+					<div class="section-heading catalog-heading">
+						<div><span class="eyebrow">Selección para ti</span><h2>Pequeños grandes favoritos</h2></div>
+						<p>Productos que hacen espacio para sentirte bien, todos los días.</p>
+					</div>
+					<div class="catalog-toolbar">
+						<div class="category-pills" role="group" aria-label="Filtrar por categoría">
+							<button class="filter-pill is-active" type="button" data-category="Todos" aria-pressed="true">Todos</button>
+							<button class="filter-pill" type="button" data-category="Perfumería" aria-pressed="false">Perfumería</button>
+							<button class="filter-pill" type="button" data-category="Maquillaje" aria-pressed="false">Maquillaje</button>
+							<button class="filter-pill" type="button" data-category="Skincare" aria-pressed="false">Skincare</button>
+							<button class="filter-pill" type="button" data-category="Cuidado Personal" aria-pressed="false">Cuidado personal</button>
+						</div>
+						<div class="catalog-tools">
+							<label class="search-field" for="productSearch"><i class="bi bi-search" aria-hidden="true"></i><input id="productSearch" type="search" placeholder="Buscar en la tienda" autocomplete="off"><span class="visually-hidden">Buscar productos</span></label>
+							<label class="sort-field" for="productSort"><span class="visually-hidden">Ordenar productos</span><select id="productSort" aria-label="Ordenar productos"><option value="featured">Destacados</option><option value="price-asc">Menor precio</option><option value="price-desc">Mayor precio</option><option value="name">Nombre</option></select></label>
+						</div>
+					</div>
+					<div class="results-line"><span id="productCount" aria-live="polite"></span><button class="clear-filters" type="button" hidden>Limpiar búsqueda <i class="bi bi-x-lg" aria-hidden="true"></i></button></div>
+					<div class="product-grid" id="productGrid" aria-live="polite"></div>
+					<div class="empty-state" id="emptyState" hidden><span><i class="bi bi-search" aria-hidden="true"></i></span><h3>No encontramos ese favorito</h3><p>Prueba con otra palabra o vuelve a ver todos los productos.</p><button class="button-secondary" type="button" id="resetCatalog">Ver todo</button></div>
+				</div>
+			</section>
+
+			<section class="closing-band">
+				<div class="container site-container closing-inner">
+					<span class="closing-flower" aria-hidden="true"><i class="bi bi-flower1"></i></span>
+					<p>Haz de lo cotidiano <em>algo tuyo.</em></p>
+					<a href="#catalogo" aria-label="Volver al catálogo"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container site-container">
+				<div class="footer-inner">
+					<div>
+						<a class="footer-brand" href="#inicio"><strong>Tamtamarindo</strong></a>
+						<p class="footer-copy">Belleza pensada para realzar tu rutina con aromas, cuidado y color que te acompañan cada día.</p>
+						<div class="footer-social">
+							<a href="#inicio" aria-label="Instagram de Tamtamarindo"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+							<a href="#catalogo" aria-label="Catálogo de productos"><i class="bi bi-bag-heart" aria-hidden="true"></i></a>
+							<a href="https://wa.me/56975407155" target="_blank" rel="noreferrer" aria-label="Contactar por WhatsApp"><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
+						</div>
+					</div>
+					<div class="footer-column">
+						<h4>Explorar</h4>
+						<a href="#catalogo">Perfumería</a>
+						<a href="#catalogo">Maquillaje</a>
+						<a href="#catalogo">Skincare</a>
+						<a href="#catalogo">Cuidado personal</a>
+					</div>
+					<div class="footer-column">
+						<h4>Atención</h4>
+						<span>Horario: Lun a Sáb</span>
+						<span>09:00 - 19:00</span>
+						<span>WhatsApp: +56 9 7540 7155</span>
+					</div>
+					<div class="footer-column">
+						<h4>Envíos</h4>
+						<span>Despacho a todo Chile</span>
+						<span>Pago por transferencia</span>
+						<span>Contacto directo</span>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<span>© 2026 Tamtamarindo</span>
+					<a href="#catalogo">Volver a la tienda <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+					<span>Desarrollado por <a href="https://github.com/TriGataro" target="_blank" rel="noreferrer">Trigataro <i class="bi bi-github" aria-hidden="true"></i></a></span>
+				</div>
+			</div>
+		</footer>
+
+		<div class="offcanvas offcanvas-end cart-panel" tabindex="-1" id="cartPanel" aria-labelledby="cartTitle">
+			<div class="offcanvas-header"><div><span class="eyebrow">Tu selección</span><h2 class="offcanvas-title" id="cartTitle">Tu carrito <span class="cart-title-count">(0)</span></h2></div><button type="button" class="icon-button" data-bs-dismiss="offcanvas" aria-label="Cerrar carrito"><i class="bi bi-x-lg" aria-hidden="true"></i></button></div>
+			<div class="offcanvas-body"><div class="cart-items" id="cartItems"></div><div class="cart-empty" id="cartEmpty"><i class="bi bi-bag-heart" aria-hidden="true"></i><p>Tu próximo favorito te está esperando.</p><button class="button-secondary" type="button" data-bs-dismiss="offcanvas">Seguir explorando</button></div></div>
+			<div class="cart-footer" id="cartFooter" hidden><div class="cart-total"><span>Subtotal</span><strong id="cartSubtotal">$0</strong></div><p>El despacho se coordina al confirmar tu pedido.</p><a class="button-primary checkout-button" href="#" id="copyOrder"><i class="bi bi-whatsapp" aria-hidden="true"></i> Enviar por WhatsApp</a></div>
+		</div>
+		<div class="toast-container position-fixed bottom-0 end-0 p-3"><div class="toast order-toast" id="orderToast" role="status" aria-live="polite" aria-atomic="true"><div class="toast-body"><i class="bi bi-check-circle-fill" aria-hidden="true"></i><span>Pedido copiado. Ya puedes compartirlo.</span><button type="button" class="btn-close ms-auto" data-bs-dismiss="toast" aria-label="Cerrar"></button></div></div></div>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="data.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
