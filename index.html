@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<div class="announcement-bar">Un pequeño ritual puede cambiar todo <span aria-hidden="true">·</span> Envíos a todo Chile</div>
+		<div class="announcement-bar">Un pequeño ritual puede cambiar todo </div>
 
 		<header class="site-header sticky-top">
 			<nav class="navbar navbar-expand-lg" aria-label="Navegación principal">
@@ -23,6 +23,14 @@
 						<span class="brand-mark"><i class="bi bi-flower1" aria-hidden="true"></i></span>
 						<span><strong>Tamtamarindo</strong></span>
 					</a>
+
+					<div class="header-actions">
+						<button class="icon-button search-toggle" type="button" aria-label="Ir a buscar productos" title="Buscar productos"><i class="bi bi-search" aria-hidden="true"></i></button>
+						<button class="icon-button cart-trigger" type="button" data-bs-toggle="offcanvas" data-bs-target="#cartPanel" aria-controls="cartPanel" aria-label="Abrir carrito">
+							<i class="bi bi-bag-heart" aria-hidden="true"></i><span class="cart-count" aria-live="polite">0</span>
+						</button>
+					</div>
+
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Abrir menú">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -33,12 +41,6 @@
 							<li class="nav-item"><a class="nav-link" href="#catalogo" data-category-link="Skincare">Skincare</a></li>
 							<li class="nav-item"><a class="nav-link" href="#catalogo" data-category-link="Cuidado Personal">Cuidado personal</a></li>
 						</ul>
-						<div class="header-actions">
-							<button class="icon-button search-toggle" type="button" aria-label="Ir a buscar productos" title="Buscar productos"><i class="bi bi-search" aria-hidden="true"></i></button>
-							<button class="icon-button cart-trigger" type="button" data-bs-toggle="offcanvas" data-bs-target="#cartPanel" aria-controls="cartPanel" aria-label="Abrir carrito">
-								<i class="bi bi-bag" aria-hidden="true"></i><span class="cart-count" aria-live="polite">0</span>
-							</button>
-						</div>
 					</div>
 				</div>
 			</nav>
@@ -73,16 +75,16 @@
 					</div>
 					<div class="category-grid">
 						<button class="category-tile tile-perfume" type="button" data-category="Perfumería">
-							<span class="tile-index">01</span><span class="tile-icon"><i class="bi bi-sparkles" aria-hidden="true"></i></span><span class="tile-name">Perfumería</span><span class="tile-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span>
+							<span class="tile-index"></span><span class="tile-icon"><i class="bi bi-sparkles" aria-hidden="true"></i></span><span class="tile-name">Perfumería</span><span class="tile-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span>
 						</button>
 						<button class="category-tile tile-makeup" type="button" data-category="Maquillaje">
-							<span class="tile-index">02</span><span class="tile-icon"><i class="bi bi-palette2" aria-hidden="true"></i></span><span class="tile-name">Maquillaje</span><span class="tile-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span>
+							<span class="tile-index"></span><span class="tile-icon"><i class="bi bi-palette2" aria-hidden="true"></i></span><span class="tile-name">Maquillaje</span><span class="tile-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span>
 						</button>
 						<button class="category-tile tile-skin" type="button" data-category="Skincare">
-							<span class="tile-index">03</span><span class="tile-icon"><i class="bi bi-droplet-half" aria-hidden="true"></i></span><span class="tile-name">Skincare</span><span class="tile-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span>
+							<span class="tile-index"></span><span class="tile-icon"><i class="bi bi-droplet-half" aria-hidden="true"></i></span><span class="tile-name">Skincare</span><span class="tile-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span>
 						</button>
 						<button class="category-tile tile-care" type="button" data-category="Cuidado Personal">
-							<span class="tile-index">04</span><span class="tile-icon"><i class="bi bi-flower2" aria-hidden="true"></i></span><span class="tile-name">Cuidado personal</span><span class="tile-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span>
+							<span class="tile-index"></span><span class="tile-icon"><i class="bi bi-flower2" aria-hidden="true"></i></span><span class="tile-name">Cuidado personal</span><span class="tile-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span>
 						</button>
 					</div>
 				</div>
@@ -129,7 +131,7 @@
 						<a class="footer-brand" href="#inicio"><strong>Tamtamarindo</strong></a>
 						<p class="footer-copy">Belleza pensada para realzar tu rutina con aromas, cuidado y color que te acompañan cada día.</p>
 						<div class="footer-social">
-							<a href="#inicio" aria-label="Instagram de Tamtamarindo"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+							<a href="https://www.instagram.com/tamtamarindo/" target="_blank" rel="noreferrer" aria-label="Instagram de Tamtamarindo"><i class="bi bi-instagram" aria-hidden="true"></i></a>
 							<a href="#catalogo" aria-label="Catálogo de productos"><i class="bi bi-bag-heart" aria-hidden="true"></i></a>
 							<a href="https://wa.me/56975407155" target="_blank" rel="noreferrer" aria-label="Contactar por WhatsApp"><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
 						</div>
@@ -149,7 +151,6 @@
 					</div>
 					<div class="footer-column">
 						<h4>Envíos</h4>
-						<span>Despacho a todo Chile</span>
 						<span>Pago por transferencia</span>
 						<span>Contacto directo</span>
 					</div>
