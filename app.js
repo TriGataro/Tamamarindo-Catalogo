@@ -230,7 +230,7 @@
 		if (orderButton) {
 			const items = Object.entries(cart).map(([id, quantity]) => `${quantity} x ${getProductById(id).name}`).join(", ");
 			const text = encodeURIComponent(`Hola, quiero hacer un pedido de los siguientes productos: ${items}`);
-			orderButton.href = `https://wa.me/56975407155?text=${text}`;
+			orderButton.href = `https://wa.me/56987028794?text=${text}`;
 			orderButton.setAttribute("aria-label", "Enviar pedido por WhatsApp");
 		}
 		// Persistir cambios
