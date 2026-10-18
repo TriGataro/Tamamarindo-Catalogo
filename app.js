@@ -124,7 +124,7 @@
 		const filtered = catalogProducts.filter((product) => {
 			const matchesCategory = activeCategory === "Todos" || product.category === activeCategory;
 			const searchable = `${product.name} ${product.description} ${product.category} ${product.subcategory}`.toLocaleLowerCase("es-CL");
-			return matchesCategory && searchable.includes(query);
+			return product.visible === true && matchesCategory && searchable.includes(query);
 		});
 
 		// Lógica de ordenamiento según el selector de la interfaz

@@ -10,7 +10,7 @@ const catalogProducts = [
 		"offerPrice": 24490,
 		"image": "img/Perfumeria/Hombre/Perfumes/kaiak-clasico.jpg",
 		"featured": true,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "aura-alba",
@@ -23,7 +23,7 @@ const catalogProducts = [
 		"offerPrice": 46190,
 		"image": "img/Perfumeria/Mujer/Perfumes/aura-alba.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "tododia-body-splash",
@@ -34,9 +34,9 @@ const catalogProducts = [
 		"size": "200 ml",
 		"price": 14790,
 		"offerPrice": 10350,
-		"image": "img/Perfumeria/Unisex/Colonias/tododia-body-splash.jpg",
+		"image": "img/Perfumeria/Mujer/Colonias/tododia-body-splash.jpg",
 		"featured": true,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "base-cc-cream",
@@ -47,9 +47,9 @@ const catalogProducts = [
 		"size": "30 ml",
 		"price": 18990,
 		"offerPrice": 13290,
-		"image": "img/Maquillaje/Rostros/base-cc-cream.jpg",
+		"image": "img/Maquillaje/Rostros/Base/base-cc-cream.jpg",
 		"featured": true,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "mascara-secret",
@@ -60,9 +60,9 @@ const catalogProducts = [
 		"size": "8 ml",
 		"price": 13990,
 		"offerPrice": 9790,
-		"image": "img/Maquillaje/Ojos/mascara-secret.jpg",
+		"image": "img/Maquillaje/Ojos/Máscara/mascara-secret.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "labial-matte",
@@ -73,9 +73,9 @@ const catalogProducts = [
 		"size": "3,8 g",
 		"price": 11290,
 		"offerPrice": 7900,
-		"image": "img/Maquillaje/Labios/labial-matte.jpg",
+		"image": "img/Maquillaje/Labios/Labial/labial-matte.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "serum-chronos",
@@ -88,7 +88,7 @@ const catalogProducts = [
 		"offerPrice": 23090,
 		"image": "img/Skincare/Tratamiento/serum-chronos.jpg",
 		"featured": true,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "limpiador-chronos",
@@ -101,7 +101,7 @@ const catalogProducts = [
 		"offerPrice": 10000,
 		"image": "img/Skincare/Limpieza/limpiador-chronos.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "protector-solar-facial",
@@ -114,7 +114,7 @@ const catalogProducts = [
 		"offerPrice": 11890,
 		"image": "img/Skincare/Hidratación/protector-solar-facial.jpg",
 		"featured": true,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "crema-cereza",
@@ -127,7 +127,7 @@ const catalogProducts = [
 		"offerPrice": 10490,
 		"image": "img/Cuidado Personal/Cuerpo/crema-cereza.jpg",
 		"featured": true,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "crema-manos-ekos",
@@ -140,7 +140,7 @@ const catalogProducts = [
 		"offerPrice": 5870,
 		"image": "img/Cuidado Personal/Cuerpo/Crema Manos/cm_catania_75.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "shampoo-lumina",
@@ -153,7 +153,7 @@ const catalogProducts = [
 		"offerPrice": 5590,
 		"image": "img/Cuidado Personal/Cabello/shampoo-lumina.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "chronos-acqua-repuesto",
@@ -166,7 +166,7 @@ const catalogProducts = [
 		"offerPrice": 12890,
 		"image": "img/Skincare/Hidratación/chronos-acqua-repuesto.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "lumina-shampoo-antioleosidad-repuesto",
@@ -179,7 +179,7 @@ const catalogProducts = [
 		"offerPrice": 4020,
 		"image": "img/Cuidado Personal/Cabello/lumina-shampoo-antioleosidad-repuesto.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "lumina-shampoo-matizacion-repuesto",
@@ -192,7 +192,7 @@ const catalogProducts = [
 		"offerPrice": 4080,
 		"image": "img/Cuidado Personal/Cabello/lumina-shampoo-matizacion-repuesto.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "ekos-aceite-maracuya-repuesto",
@@ -205,7 +205,7 @@ const catalogProducts = [
 		"offerPrice": 7920,
 		"image": "img/Cuidado Personal/Cuerpo/ekos-aceite-maracuya-repuesto.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "tododia-jabon-frambuesa-repuesto",
@@ -218,7 +218,7 @@ const catalogProducts = [
 		"offerPrice": 4010,
 		"image": "img/Cuidado Personal/Cuerpo/tododia-jabon-frambuesa-repuesto.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "tododia-shampoo-reparacion-repuesto",
@@ -231,7 +231,7 @@ const catalogProducts = [
 		"offerPrice": 2720,
 		"image": "img/Cuidado Personal/Cabello/tododia-shampoo-reparacion-repuesto.jpg",
 		"featured": true,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "tododia-crema-cereza-repuesto",
@@ -244,7 +244,7 @@ const catalogProducts = [
 		"offerPrice": 8390,
 		"image": "img/Cuidado Personal/Cuerpo/tododia-crema-cereza-repuesto.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "tododia-jabon-frutas-rojas-repuesto",
@@ -257,7 +257,7 @@ const catalogProducts = [
 		"offerPrice": 4010,
 		"image": "img/Cuidado Personal/Cuerpo/tododia-jabon-frutas-rojas-repuesto.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "erva-doce-roll-on",
@@ -270,7 +270,7 @@ const catalogProducts = [
 		"offerPrice": 5870,
 		"image": "img/Cuidado Personal/Desodorante/erva-doce-roll-on.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "ekos-manteca-castana",
@@ -283,7 +283,7 @@ const catalogProducts = [
 		"offerPrice": 12590,
 		"image": "img/Cuidado Personal/Cuerpo/ekos-manteca-castana.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "lumina-protector-termico",
@@ -296,7 +296,7 @@ const catalogProducts = [
 		"offerPrice": 8740,
 		"image": "img/Cuidado Personal/Cabello/lumina-protector-termico.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "kaiak-urbe-masculino",
@@ -309,7 +309,7 @@ const catalogProducts = [
 		"offerPrice": 24490,
 		"image": "img/Perfumeria/Hombre/Hombre/kaiak-urbe-masculino.jpg",
 		"featured": true,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "ekos-pitanga-preta-repuesto",
@@ -322,7 +322,7 @@ const catalogProducts = [
 		"offerPrice": 11190,
 		"image": "img/Perfumeria/Unisex/Colonias/ekos-pitanga-preta-repuesto.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "tododia-body-splash-cereza-avellana",
@@ -335,7 +335,7 @@ const catalogProducts = [
 		"offerPrice": 10350,
 		"image": "img/Perfumeria/Unisex/Colonias/tododia-body-splash-cereza-avellana.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "tododia-body-splash-frambuesa",
@@ -348,7 +348,7 @@ const catalogProducts = [
 		"offerPrice": 10350,
 		"image": "img/Perfumeria/Unisex/Colonias/tododia-body-splash-frambuesa.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "kriska-shock",
@@ -361,7 +361,7 @@ const catalogProducts = [
 		"offerPrice": 17700,
 		"image": "img/Perfumeria/Mujer/Mujer/kriska-shock.jpg",
 		"featured": true,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "ekos-castana-frescor-repuesto",
@@ -374,7 +374,7 @@ const catalogProducts = [
 		"offerPrice": 11190,
 		"image": "img/Perfumeria/Unisex/Colonias/ekos-castana-frescor-repuesto.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "tododia-spray-manzana-aloe",
@@ -387,7 +387,7 @@ const catalogProducts = [
 		"offerPrice": 4190,
 		"image": "img/Cuidado Personal/Cuerpo/tododia-spray-manzana-aloe.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "mama-bebe-aceite-embarazadas",
@@ -400,7 +400,7 @@ const catalogProducts = [
 		"offerPrice": 5800,
 		"image": "img/Cuidado Personal/Infantil/mama-bebe-aceite-embarazadas.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "essencial-exclusivo-femenino-repuesto",
@@ -413,7 +413,7 @@ const catalogProducts = [
 		"offerPrice": 24490,
 		"image": "img/Perfumeria/Mujer/Mujer/essencial-exclusivo-femenino-repuesto.jpg",
 		"featured": true,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "tododia-body-splash-ciruela-vainilla",
@@ -426,7 +426,7 @@ const catalogProducts = [
 		"offerPrice": 10350,
 		"image": "img/Perfumeria/Unisex/Colonias/tododia-body-splash-ciruela-vainilla.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "tododia-perfume-cabello-ciruela",
@@ -439,7 +439,7 @@ const catalogProducts = [
 		"offerPrice": 5800,
 		"image": "img/Cuidado Personal/Cabello/tododia-perfume-cabello-ciruela.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "chronos-crema-antisenales-60-dia-repuesto",
@@ -452,7 +452,7 @@ const catalogProducts = [
 		"offerPrice": 18400,
 		"image": "img/Skincare/Tratamiento/chronos-crema-antisenales-60-dia-repuesto.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "tododia-jabon-manos-romero-salvia",
@@ -465,7 +465,7 @@ const catalogProducts = [
 		"offerPrice": 6080,
 		"image": "img/Cuidado Personal/Cuerpo/tododia-jabon-manos-romero-salvia.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "erva-doce-roll-on-kit",
@@ -478,7 +478,7 @@ const catalogProducts = [
 		"offerPrice": 17610,
 		"image": "img/Cuidado Personal/Desodorante/erva-doce-roll-on-kit.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "tododia-spray-reactivador-rizos",
@@ -491,7 +491,7 @@ const catalogProducts = [
 		"offerPrice": 4190,
 		"image": "img/Cuidado Personal/Cabello/tododia-spray-reactivador-rizos.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "tododia-shampoo-mora-coco",
@@ -504,7 +504,7 @@ const catalogProducts = [
 		"offerPrice": 3840,
 		"image": "img/Cuidado Personal/Cabello/tododia-shampoo-mora-coco.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "lumina-kit-cabello-danado",
@@ -517,7 +517,7 @@ const catalogProducts = [
 		"offerPrice": 12940,
 		"image": "img/Cuidado Personal/Cabello/lumina-kit-cabello-danado.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "natura-una-corrector-alta-cobertura",
@@ -530,7 +530,7 @@ const catalogProducts = [
 		"offerPrice": 7340,
 		"image": "img/Maquillaje/Rostros/natura-una-corrector-alta-cobertura.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "natura-una-polvo-compacto-nude-me",
@@ -543,7 +543,7 @@ const catalogProducts = [
 		"offerPrice": 12240,
 		"image": "img/Maquillaje/Rostros/natura-una-polvo-compacto-nude-me.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "chronos-super-serum-reductor-arrugas",
@@ -556,7 +556,7 @@ const catalogProducts = [
 		"offerPrice": 24840,
 		"image": "img/Skincare/Tratamiento/chronos-super-serum-reductor-arrugas.jpg",
 		"featured": true,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "chronos-agua-micelar",
@@ -569,7 +569,7 @@ const catalogProducts = [
 		"offerPrice": 9230,
 		"image": "img/Skincare/Limpieza/chronos-agua-micelar.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "chronos-exfoliante-antisenales",
@@ -582,7 +582,7 @@ const catalogProducts = [
 		"offerPrice": 11190,
 		"image": "img/Skincare/Limpieza/chronos-exfoliante-antisenales.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "mama-bebe-shampoo-suave",
@@ -595,7 +595,7 @@ const catalogProducts = [
 		"offerPrice": 5100,
 		"image": "img/Cuidado Personal/Infantil/mama-bebe-shampoo-suave.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "mama-bebe-toallitas-humedas",
@@ -608,7 +608,7 @@ const catalogProducts = [
 		"offerPrice": 2790,
 		"image": "img/Cuidado Personal/Infantil/mama-bebe-toallitas-humedas.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "mama-bebe-colonia-sin-alcohol",
@@ -621,7 +621,7 @@ const catalogProducts = [
 		"offerPrice": 11890,
 		"image": "img/Cuidado Personal/Infantil/mama-bebe-colonia-sin-alcohol.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "natura-homme-gel-barba",
@@ -634,7 +634,7 @@ const catalogProducts = [
 		"offerPrice": 6290,
 		"image": "img/Cuidado Personal/Hombre/natura-homme-gel-barba.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	},
 	{
 		"id": "natura-homme-balm-post-afeitado",
@@ -647,6 +647,6 @@ const catalogProducts = [
 		"offerPrice": 6990,
 		"image": "img/Cuidado Personal/Hombre/natura-homme-balm-post-afeitado.jpg",
 		"featured": false,
-		"visible": false
+		"visible": true
 	}
 ];
