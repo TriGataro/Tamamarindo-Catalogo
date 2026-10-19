@@ -125,7 +125,7 @@ const catalogProducts = [
 		"size": "400 ml",
 		"price": 14990,
 		"offerPrice": 10490,
-		"image": "img/Cuidado Personal/Cuerpo/crema-cereza.jpg",
+		"image": "img/Cuidado Personal/Cuerpo/Crema Corporal/crema-cereza.jpg",
 		"featured": true,
 		"visible": true
 	},
@@ -151,13 +151,13 @@ const catalogProducts = [
 		"size": "300 ml",
 		"price": 7990,
 		"offerPrice": 5590,
-		"image": "img/Cuidado Personal/Cabello/shampoo-lumina.jpg",
+		"image": "img/Cuidado Personal/Cabello/Shampoo/shampoo-lumina.jpg",
 		"featured": false,
 		"visible": true
 	},
 	{
 		"id": "chronos-acqua-repuesto",
-		"name": "Repuesto Acqua Biohidratante Renovador Chronos Derma",
+		"name": "Repuesto Acqua Biohidratante Renovador Chronos DermRepuesto Acqua Biohidratante Renovador Chronos Derma",
 		"description": "Hidratación facial renovadora para acompañar tu rutina diaria.",
 		"category": "Skincare",
 		"subcategory": "Hidratación",
@@ -177,7 +177,7 @@ const catalogProducts = [
 		"size": "300 ml",
 		"price": 6490,
 		"offerPrice": 4020,
-		"image": "img/Cuidado Personal/Cabello/lumina-shampoo-antioleosidad-repuesto.jpg",
+		"image": "img/Cuidado Personal/Cabello/Shampoo/lumina-shampoo-antioleosidad-repuesto.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -229,7 +229,7 @@ const catalogProducts = [
 		"size": "300 ml",
 		"price": 4390,
 		"offerPrice": 2720,
-		"image": "img/Cuidado Personal/Cabello/tododia-shampoo-reparacion-repuesto.jpg",
+		"image": "img/Cuidado Personal/Cabello/Shampoo/tododia-shampoo-reparacion-repuesto.jpg",
 		"featured": true,
 		"visible": true
 	},
