@@ -190,7 +190,7 @@ const catalogProducts = [
 		"size": "300 ml",
 		"price": 6290,
 		"offerPrice": 4080,
-		"image": "img/Cuidado Personal/Cabello/lumina-shampoo-matizacion-repuesto.jpg",
+		"image": "img/Cuidado Personal/Cabello/Shampoo/lumina-shampoo-matizacion-repuesto.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -203,7 +203,7 @@ const catalogProducts = [
 		"size": "200 ml",
 		"price": 12190,
 		"offerPrice": 7920,
-		"image": "img/Cuidado Personal/Cuerpo/ekos-aceite-maracuya-repuesto.jpg",
+		"image": "img/Cuidado Personal/Cuerpo/Aceites/ekos-aceite-maracuya-repuesto.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -216,7 +216,7 @@ const catalogProducts = [
 		"size": "300 ml",
 		"price": 6690,
 		"offerPrice": 4010,
-		"image": "img/Cuidado Personal/Cuerpo/tododia-jabon-frambuesa-repuesto.jpg",
+		"image": "img/Cuidado Personal/Cuerpo/Jabones/tododia-jabon-frambuesa-repuesto.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -242,7 +242,7 @@ const catalogProducts = [
 		"size": "400 ml",
 		"price": 11990,
 		"offerPrice": 8390,
-		"image": "img/Cuidado Personal/Cuerpo/tododia-crema-cereza-repuesto.jpg",
+		"image": "img/Cuidado Personal/Cuerpo/Crema Corporal/tododia-crema-cereza-repuesto.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -255,7 +255,7 @@ const catalogProducts = [
 		"size": "300 ml",
 		"price": 6690,
 		"offerPrice": 4010,
-		"image": "img/Cuidado Personal/Cuerpo/tododia-jabon-frutas-rojas-repuesto.jpg",
+		"image": "img/Cuidado Personal/Cuerpo/Jabones/tododia-jabon-frutas-rojas-repuesto.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -268,7 +268,7 @@ const catalogProducts = [
 		"size": "70 ml",
 		"price": 8390,
 		"offerPrice": 5870,
-		"image": "img/Cuidado Personal/Desodorante/erva-doce-roll-on.jpg",
+		"image": "img/Cuidado Personal/Cuerpo/Desodorante/erva-doce-roll-on.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -307,7 +307,7 @@ const catalogProducts = [
 		"size": "100 ml",
 		"price": 34990,
 		"offerPrice": 24490,
-		"image": "img/Perfumeria/Hombre/Hombre/kaiak-urbe-masculino.jpg",
+		"image": "img/Perfumeria/Hombre/Perfumes/kaiak-urbe-masculino.jpg",
 		"featured": true,
 		"visible": true
 	},
@@ -359,7 +359,7 @@ const catalogProducts = [
 		"size": "100 ml",
 		"price": 25290,
 		"offerPrice": 17700,
-		"image": "img/Perfumeria/Mujer/Mujer/kriska-shock.jpg",
+		"image": "img/Perfumeria/Mujer/Perfumes/kriska-shock.jpg",
 		"featured": true,
 		"visible": true
 	},
@@ -411,7 +411,7 @@ const catalogProducts = [
 		"size": "100 ml",
 		"price": 34990,
 		"offerPrice": 24490,
-		"image": "img/Perfumeria/Mujer/Mujer/essencial-exclusivo-femenino-repuesto.jpg",
+		"image": "img/Perfumeria/Mujer/Perfumes/essencial-exclusivo-femenino-repuesto.jpg",
 		"featured": true,
 		"visible": true
 	},
