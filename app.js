@@ -120,7 +120,7 @@
 	function renderSampleCarousel() {
 		const sampleProducts = [
 			"kaiak-clasico",
-			"crema-manos-ekos",
+			"crema-manos-castania-ekos",
 			"tododia-body-splash-cereza-avellana",
 			"kriska-shock",
 			"mascara-secret"

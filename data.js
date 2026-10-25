@@ -130,7 +130,7 @@ const catalogProducts = [
 		"visible": true
 	},
 	{
-		"id": "crema-manos-ekos",
+		"id": "crema-manos-castania-ekos",
 		"name": "Crema Hidratante para Manos Ekos Castaña",
 		"description": "Un cuidado nutritivo para tener siempre a mano.",
 		"category": "Cuidado Personal",
@@ -139,6 +139,58 @@ const catalogProducts = [
 		"price": 8390,
 		"offerPrice": 5990,
 		"image": "img/Cuidado Personal/Cuerpo/Crema Manos/cm_catania_75.jpg",
+		"featured": false,
+		"visible": true
+	},
+	{
+		"id": "crema-manos-maracuya-ekos",
+		"name": "Crema Hidratante para Manos Ekos Maracuyá",
+		"description": "Un cuidado nutritivo para tener siempre a mano.",
+		"category": "Cuidado Personal",
+		"subcategory": "Cuerpo",
+		"size": "75 g",
+		"price": 8390,
+		"offerPrice": 5990,
+		"image": "img/Cuidado Personal/Cuerpo/Crema Manos/cm_maracuya_75.jpg",
+		"featured": false,
+		"visible": true
+	},
+	{
+		"id": "crema-manos-pitanga-ekos",
+		"name": "Crema Hidratante para Manos Ekos Maracuyá",
+		"description": "Un cuidado nutritivo para tener siempre a mano.",
+		"category": "Cuidado Personal",
+		"subcategory": "Cuerpo",
+		"size": "75 g",
+		"price": 8390,
+		"offerPrice": 5990,
+		"image": "img/Cuidado Personal/Cuerpo/Crema Manos/cm_pitanga_75.jpg",
+		"featured": false,
+		"visible": true
+	},
+	{
+		"id": "nectar-manos-maracuya-ekos",
+		"name": "Nectar Hidratante para Manos Ekos Maracuyá",
+		"description": "Un cuidado nutritivo para tener siempre a mano.",
+		"category": "Cuidado Personal",
+		"subcategory": "Cuerpo",
+		"size": "75 g",
+		"price": 8390,
+		"offerPrice": 5990,
+		"image": "img/Cuidado Personal/Cuerpo/Crema Manos/nc_maracuya_75.jpg",
+		"featured": false,
+		"visible": true
+	},
+	{
+		"id": "crema-manos-ucuba-ekos",
+		"name": "Crema Hidratante para Manos Ekos Ucuba",
+		"description": "Un cuidado nutritivo para tener siempre a mano.",
+		"category": "Cuidado Personal",
+		"subcategory": "Cuerpo",
+		"size": "75 g",
+		"price": 8390,
+		"offerPrice": 5990,
+		"image": "img/Cuidado Personal/Cuerpo/Crema Manos/cm_ucuba_75.jpg",
 		"featured": false,
 		"visible": true
 	},
