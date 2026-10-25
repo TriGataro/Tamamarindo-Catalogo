@@ -103,7 +103,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .hero-carousel .carousel-control-prev, .hero-carousel .carousel-control-next { top: 50%; bottom: auto; width: 30px; height: 30px; margin: 0 8px; border-radius: 50%; background: rgba(125, 71, 60, .58); opacity: .85; transform: translateY(-50%); }
 .hero-carousel .carousel-indicators { z-index: 4; margin-bottom: 0; }
 .hero-carousel .carousel-indicators [data-bs-target] { width: 7px; height: 7px; border: 0; border-radius: 50%; }
-.hero-carousel .carousel-item img { width: min(64%, 250px); height: 340px; flex: 0 1 64%; }
+.hero-carousel .carousel-item img { width: min(64%, 250px); height: 340px; flex: 0 1 64%; border-radius: 18px; background: #fff; mix-blend-mode: normal; filter: drop-shadow(8px 16px 13px rgba(125, 71, 60, .18)); }
 .hero-art img { position: relative; z-index: 1; width: min(70%, 310px); height: 340px; object-fit: contain; mix-blend-mode: multiply; filter: drop-shadow(8px 16px 13px rgba(125, 71, 60, .18)); animation: arrive .8s .12s both; }
 .hero-art-caption { position: static; z-index: 2; display: flex; flex: 0 1 125px; flex-direction: column; align-items: flex-start; color: #fff; font-family: var(--serif); font-size: 17px; line-height: 1.3; text-shadow: 0 1px 6px rgba(83, 43, 34, .65); }
 .hero-art-caption span { margin-top: 4px; color: #fff; font-family: var(--sans); font-size: 9px; }
@@ -350,12 +350,11 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 	.hero-copy { padding: 43px 0 37px 8%; }
 	.hero-copy h1 { font-size: clamp(37px, 8vw, 54px); }
 	.hero-copy > p { max-width: 275px; font-size: 12px; }
-	.hero-art { padding: 17px 2% 31px 0; }
-	.hero-art img { width: 96%; height: 260px; }
-	.hero-carousel, .hero-carousel .carousel-inner, .hero-carousel .carousel-item { min-height: 260px; }
-	.hero-carousel .carousel-item { gap: 4px; padding: 0 25px 18px; }
-	.hero-carousel .carousel-item img { width: 62%; height: 260px; flex-basis: 62%; }
-	.hero-art-caption { flex-basis: 105px; font-size: 13px; }
+	.hero-art { grid-column: 1 / -1; padding: 0 20px 31px; }
+	.hero-carousel, .hero-carousel .carousel-inner, .hero-carousel .carousel-item { min-height: 300px; }
+	.hero-carousel .carousel-item { gap: 8px; padding: 0 36px 18px; }
+	.hero-carousel .carousel-item img { width: min(72%, 300px); height: 300px; flex-basis: 72%; }
+	.hero-art-caption { flex-basis: 120px; font-size: 15px; }
 	.hero-stamp { top: 13%; right: 6%; width: 61px; height: 61px; font-size: 10px; }
 	.category-section { padding: 58px 0; }
 	.section-heading h2 { font-size: 29px; }
@@ -393,10 +392,10 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 	.hero-copy > p { max-width: 205px; font-size: 10px; }
 	.hero-copy .button-primary { min-height: 39px; gap: 7px; padding: 0 10px; font-size: 9px; }
 	.hero-note { max-width: 170px; font-size: 9px; line-height: 1.5; }
-	.hero-art img { height: 218px; }
-	.hero-carousel, .hero-carousel .carousel-inner, .hero-carousel .carousel-item { min-height: 218px; }
-	.hero-carousel .carousel-item img { height: 218px; }
-	.hero-art-caption { flex-basis: 88px; font-size: 11px; }
+	.hero-carousel, .hero-carousel .carousel-inner, .hero-carousel .carousel-item { min-height: 260px; }
+	.hero-carousel .carousel-item { gap: 4px; padding: 0 25px 18px; }
+	.hero-carousel .carousel-item img { width: min(72%, 260px); height: 260px; flex-basis: 72%; }
+	.hero-art-caption { flex-basis: 96px; font-size: 12px; }
 	.hero-stamp { top: 10%; right: 2%; width: 51px; height: 51px; font-size: 8px; }
 	.section-heading h2 { font-size: 26px; }
 	.category-hint { max-width: 115px; gap: 5px; font-size: 8px; }
