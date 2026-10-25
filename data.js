@@ -463,7 +463,7 @@ const catalogProducts = [
 		"size": "250 ml",
 		"price": 8690,
 		"offerPrice": 6080,
-		"image": "img/Cuidado Personal/Cuerpo/tododia-jabon-manos-romero-salvia.jpg",
+		"image": "img/Cuidado Personal/Cuerpo/Jabones/tododia-jabon-manos-romero-salvia.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -476,7 +476,7 @@ const catalogProducts = [
 		"size": "3 unidades",
 		"price": 25170,
 		"offerPrice": 17610,
-		"image": "img/Cuidado Personal/Desodorante/erva-doce-roll-on-kit.jpg",
+		"image": "img/Cuidado Personal/Cuerpo/Desodorante/erva-doce-roll-on-kit.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -489,7 +489,7 @@ const catalogProducts = [
 		"size": "150 ml",
 		"price": 5990,
 		"offerPrice": 4190,
-		"image": "img/Cuidado Personal/Cabello/tododia-spray-reactivador-rizos.jpg",
+		"image": "img/Cuidado Personal/Cabello/Shampoo/tododia-spray-reactivador-rizos.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -502,7 +502,7 @@ const catalogProducts = [
 		"size": "300 ml",
 		"price": 5490,
 		"offerPrice": 3840,
-		"image": "img/Cuidado Personal/Cabello/tododia-shampoo-mora-coco.jpg",
+		"image": "img/Cuidado Personal/Cabello/Shampoo/tododia-shampoo-mora-coco.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -515,7 +515,7 @@ const catalogProducts = [
 		"size": "Kit",
 		"price": 18490,
 		"offerPrice": 12940,
-		"image": "img/Cuidado Personal/Cabello/lumina-kit-cabello-danado.jpg",
+		"image": "img/Cuidado Personal/Cabello/Shampoo/lumina-kit-cabello-danado.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -528,7 +528,7 @@ const catalogProducts = [
 		"size": "10 g",
 		"price": 10490,
 		"offerPrice": 7340,
-		"image": "img/Maquillaje/Rostros/natura-una-corrector-alta-cobertura.jpg",
+		"image": "img/Maquillaje/Rostros/Base/natura-una-corrector-alta-cobertura.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -541,7 +541,7 @@ const catalogProducts = [
 		"size": "10 g",
 		"price": 17490,
 		"offerPrice": 12240,
-		"image": "img/Maquillaje/Rostros/natura-una-polvo-compacto-nude-me.jpg",
+		"image": "img/Maquillaje/Rostros/Base/natura-una-polvo-compacto-nude-me.jpg",
 		"featured": false,
 		"visible": true
 	},
