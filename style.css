@@ -131,10 +131,10 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 	content: "";
 }
 .category-tile:hover { z-index: 1; transform: translateY(-4px); filter: saturate(1.12); box-shadow: 0 20px 32px rgba(122, 82, 69, .16); }
-.tile-perfume { background-image: url("https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?auto=format&fit=crop&w=900&q=80"); }
-.tile-makeup { background-image: url("https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=80"); }
-.tile-skin { background-image: url("https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=900&q=80"); }
-.tile-care { background-image: url("https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=900&q=80"); }
+.tile-perfume { background-image: url("img/Perfumeria/perfumeria.jpg"); }
+.tile-makeup { background-image: url("img/Maquillaje/maquillaje.jpg"); }
+.tile-skin { background-image: url("img/Skincare/skincare.jpg"); }
+.tile-care { background-image: url("img/Cuidado\ Personal/cuidado-personal.jpg"); }
 .tile-index, .tile-icon, .tile-name, .tile-arrow { position: relative; z-index: 1; }
 .tile-index { top: 0; left: 0; color: rgba(255, 255, 255, .9); font-size: 9px; font-weight: 700; }
 .tile-icon {
