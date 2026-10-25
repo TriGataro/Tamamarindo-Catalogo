@@ -22,6 +22,8 @@
 	const cartFooter = document.querySelector("#cartFooter");
 	const cartSubtotal = document.querySelector("#cartSubtotal");
 	const orderButton = document.querySelector("#copyOrder");
+	const sampleSlides = document.querySelector("#sampleSlides");
+	const sampleIndicators = document.querySelector("#sampleIndicators");
 
 	// --- CONFIGURACIÓN Y ESTADO INICIAL ---
 	// Formateador de moneda para pesos chilenos (ej: $ 1.000)
@@ -113,6 +115,24 @@
 					<div class="product-prices"><strong>${currency.format(product.offerPrice)}</strong><del>${currency.format(product.price)}</del></div>
 				</div>
 			</article>`;
+	}
+
+	function renderSampleCarousel() {
+		const sampleProducts = [
+			"kaiak-clasico",
+			"crema-manos-ekos",
+			"tododia-body-splash-cereza-avellana",
+			"kriska-shock",
+			"mascara-secret"
+		].map((id) => productLookup.get(id));
+
+		sampleSlides.innerHTML = sampleProducts.map((product, index) => `
+			<div class="carousel-item${index === 0 ? " active" : ""}" role="group" aria-roledescription="diapositiva" aria-label="${index + 1} de ${sampleProducts.length}">
+				<img src="${product.image}" alt="${product.name}">
+				<div class="hero-art-caption">${product.name}<span>${product.size}</span></div>
+			</div>`).join("");
+		sampleIndicators.innerHTML = sampleProducts.map((product, index) => `
+			<button type="button" data-bs-target="#sample" data-bs-slide-to="${index}"${index === 0 ? ' class="active" aria-current="true"' : ""} aria-label="Ver ${product.name}"></button>`).join("");
 	}
 
 	/**
@@ -354,6 +374,7 @@
 	}
 
 	// --- ARRANQUE DE LA APLICACIÓN ---
+	renderSampleCarousel();
 	renderProducts();
 	renderCart();
 })();
