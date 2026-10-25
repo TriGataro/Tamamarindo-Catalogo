@@ -130,8 +130,34 @@ const catalogProducts = [
 		"visible": true
 	},
 	{
+		"id": "crema-manos-castania-40-ekos",
+		"name": "Crema Hidratante para Manos Ekos Castaña 40g",
+		"description": "Un cuidado nutritivo para tener siempre a mano.",
+		"category": "Cuidado Personal",
+		"subcategory": "Cuerpo",
+		"size": "40 g",
+		"price": 8390,
+		"offerPrice": 4000,
+		"image": "img/Cuidado Personal/Cuerpo/Crema Manos/cm_catania_75.jpg",
+		"featured": false,
+		"visible": true
+	},
+	{
+		"id": "crema-manos-pitanga-40-ekos",
+		"name": "Crema Hidratante para Manos Ekos Pitanga 40g",
+		"description": "Un cuidado nutritivo para tener siempre a mano.",
+		"category": "Cuidado Personal",
+		"subcategory": "Cuerpo",
+		"size": "40 g",
+		"price": 8390,
+		"offerPrice": 4000,
+		"image": "img/Cuidado Personal/Cuerpo/Crema Manos/cm_pitanga_75.jpg",
+		"featured": false,
+		"visible": true
+	},
+	{
 		"id": "crema-manos-castania-ekos",
-		"name": "Crema Hidratante para Manos Ekos Castaña",
+		"name": "Crema Hidratante para Manos Ekos Castaña 75g",
 		"description": "Un cuidado nutritivo para tener siempre a mano.",
 		"category": "Cuidado Personal",
 		"subcategory": "Cuerpo",
@@ -144,7 +170,7 @@ const catalogProducts = [
 	},
 	{
 		"id": "crema-manos-maracuya-ekos",
-		"name": "Crema Hidratante para Manos Ekos Maracuyá",
+		"name": "Crema Hidratante para Manos Ekos Maracuyá 75g",
 		"description": "Un cuidado nutritivo para tener siempre a mano.",
 		"category": "Cuidado Personal",
 		"subcategory": "Cuerpo",
@@ -157,7 +183,7 @@ const catalogProducts = [
 	},
 	{
 		"id": "crema-manos-pitanga-ekos",
-		"name": "Crema Hidratante para Manos Ekos Maracuyá",
+		"name": "Crema Hidratante para Manos Ekos Pitanga 75g",
 		"description": "Un cuidado nutritivo para tener siempre a mano.",
 		"category": "Cuidado Personal",
 		"subcategory": "Cuerpo",
@@ -170,7 +196,7 @@ const catalogProducts = [
 	},
 	{
 		"id": "nectar-manos-maracuya-ekos",
-		"name": "Nectar Hidratante para Manos Ekos Maracuyá",
+		"name": "Nectar Hidratante para Manos Ekos Maracuyá 75g",
 		"description": "Un cuidado nutritivo para tener siempre a mano.",
 		"category": "Cuidado Personal",
 		"subcategory": "Cuerpo",
@@ -183,7 +209,7 @@ const catalogProducts = [
 	},
 	{
 		"id": "crema-manos-ucuba-ekos",
-		"name": "Crema Hidratante para Manos Ekos Ucuba",
+		"name": "Crema Hidratante para Manos Ekos Ucuba 75g",
 		"description": "Un cuidado nutritivo para tener siempre a mano.",
 		"category": "Cuidado Personal",
 		"subcategory": "Cuerpo",
