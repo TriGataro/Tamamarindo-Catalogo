@@ -281,7 +281,7 @@ const catalogProducts = [
 		"size": "200 g",
 		"price": 17990,
 		"offerPrice": 12590,
-		"image": "img/Cuidado Personal/Cuerpo/ekos-manteca-castana.jpg",
+		"image": "img/Cuidado Personal/Cuerpo/Crema Corporal/ekos-manteca-castana.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -294,7 +294,7 @@ const catalogProducts = [
 		"size": "150 ml",
 		"price": 12490,
 		"offerPrice": 8740,
-		"image": "img/Cuidado Personal/Cabello/lumina-protector-termico.jpg",
+		"image": "img/Cuidado Personal/Cabello/Shampoo/lumina-protector-termico.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -320,7 +320,7 @@ const catalogProducts = [
 		"size": "150 ml",
 		"price": 15990,
 		"offerPrice": 11190,
-		"image": "img/Perfumeria/Unisex/Colonias/ekos-pitanga-preta-repuesto.jpg",
+		"image": "img/Perfumeria/Mujer/Colonias/ekos-pitanga-preta-repuesto.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -333,7 +333,7 @@ const catalogProducts = [
 		"size": "200 ml",
 		"price": 14790,
 		"offerPrice": 10350,
-		"image": "img/Perfumeria/Unisex/Colonias/tododia-body-splash-cereza-avellana.jpg",
+		"image": "img/Perfumeria/Mujer/Colonias/tododia-body-splash-cereza-avellana.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -346,7 +346,7 @@ const catalogProducts = [
 		"size": "200 ml",
 		"price": 14790,
 		"offerPrice": 10350,
-		"image": "img/Perfumeria/Unisex/Colonias/tododia-body-splash-frambuesa.jpg",
+		"image": "img/Perfumeria/Mujer/Colonias/tododia-body-splash-frambuesa.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -372,7 +372,7 @@ const catalogProducts = [
 		"size": "150 ml",
 		"price": 15990,
 		"offerPrice": 11190,
-		"image": "img/Perfumeria/Unisex/Colonias/ekos-castana-frescor-repuesto.jpg",
+		"image": "img/Perfumeria/Mujer/Colonias/ekos-castana-frescor-repuesto.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -385,7 +385,7 @@ const catalogProducts = [
 		"size": "200 ml",
 		"price": 5990,
 		"offerPrice": 4190,
-		"image": "img/Cuidado Personal/Cuerpo/tododia-spray-manzana-aloe.jpg",
+		"image": "img/Cuidado Personal/Cabello/Shampoo/tododia-spray-manzana-aloe.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -424,7 +424,7 @@ const catalogProducts = [
 		"size": "200 ml",
 		"price": 14790,
 		"offerPrice": 10350,
-		"image": "img/Perfumeria/Unisex/Colonias/tododia-body-splash-ciruela-vainilla.jpg",
+		"image": "img/Perfumeria/Mujer/Colonias/tododia-body-splash-ciruela-vainilla.jpg",
 		"featured": false,
 		"visible": true
 	},
@@ -437,7 +437,7 @@ const catalogProducts = [
 		"size": "60 ml",
 		"price": 8290,
 		"offerPrice": 5800,
-		"image": "img/Cuidado Personal/Cabello/tododia-perfume-cabello-ciruela.jpg",
+		"image": "img/Cuidado Personal/Cabello/Perfume/tododia-perfume-cabello-ciruela.jpg",
 		"featured": false,
 		"visible": true
 	},
